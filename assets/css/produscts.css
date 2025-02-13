@@ -1,0 +1,347 @@
+.feature-card {
+    background: var(--bds-white);
+    border-radius: var(--bds-normalradius);
+    transition: var(--bds-tranistion);
+    box-shadow: var(--bds-lightshadow);
+    height: 100%;
+}
+
+.feature-card .card-body{
+    padding-top: 0px !important;
+}
+.feature-card:hover {
+    box-shadow: var(--bds-darkshadow);
+    transform: translateY(-5px);
+}
+
+.feature-card img {
+    border-radius: var(--bds-normalradius);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.feature-list li:before {
+    content: "✓";
+    color: var(--bds-Blue);
+    position: absolute;
+    left: 0;
+}
+
+.btn-primary {
+    background-color: var(--bds-Blue);
+    border-color: var(--bds-Blue);
+    border-radius: var(--bds-normalradius);
+    padding: 10px 25px;
+    font-family: var(--bds-main-font);
+}
+
+.btn-primary:hover {
+    background-color: var(--bds-Dark);
+    border-color: var(--bds-Dark);
+}
+
+.card {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+img{
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.benar{
+    width: 100% !important;
+}
+.custom-box img {
+height: 200px;
+margin-bottom: 20px;
+width: 100%;
+object-fit: cover;
+}
+.custom-box h5{
+    margin-bottom: 10px;
+}
+
+.card-contanier{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+
+}
+/* Hover Effect */
+.card:hover {
+    /* background: linear-gradient(135deg, #007bff, #00c6ff); */
+    /* color: white; */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* .card:hover i {
+    color: white;
+} */
+
+/* Header Styling */
+.header-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    text-align: left;
+}
+.header-table td {
+    padding: 8px 12px;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+
+
+ .table tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: 0.3s ease-in-out;
+} 
+
+.banana{
+    border-radius: 20px;
+}
+
+.activity-card img{
+    max-height: 200px;
+     object-fit: cover;
+     width: 100%;
+     margin-bottom: 10px;
+}
+
+
+
+.star-container {
+    position: relative;
+    width:200px;
+    height:200px;
+    margin: 0 auto ;
+}
+
+.star {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #4169E1;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.star-text {
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.operator {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.robot-container {
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+
+.robot-text {
+    color: #0066cc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.robot-container img{
+    max-height: 200PX ;
+    object-fit: contain;
+}
+
+
+
+
+
+.power-heading {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.power-option {
+    border-left: 7px solid #007bff;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+.power-option:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+.power-option strong {
+    color: #0056b3;
+    font-size: 1.1rem;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.video-container {
+    max-width: 700px;
+    width: 100%;
+}
+video, img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+@media (max-width: 768px) {
+    .video-section {
+        padding: 10px;
+    }
+}
+
+.pt10{
+    padding-top: 40px;
+
+}
+
+
+.packing-list li {
+    list-style: none;
+    padding: 12px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.packing-list li:last-child {
+    border-bottom: none;
+}
+.packing-list li i {
+    font-size: 22px;
+    margin-right: 12px;
+    color: darkblue;
+    transition: transform 0.3s ease-in-out;
+}
+.packing-list li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+.packing-list li:hover i {
+    transform: rotate(10deg) scale(1.2);
+}
+
+.cyber-card{
+    border: 1px solid blue;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.cyber-card .heading{
+    position: absolute;
+    top: -48px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cyber-card h2{
+    background-color: white;
+}
+
+
+
+.card {
+    transition: 0.3s;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.icon {
+    font-size: 2rem;
+    color: #ffa03a;
+}
+.kit-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.kit-item {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.kit-item i {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: blue;
+}
+.kit-item h5 {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .kit-item {
+        flex: 1 1 100%;
+    }
+}
+
+
+video{
+    border: 2px solid rgba(192, 0, 0, 255);
+    border-radius: 20px;
+}
+
